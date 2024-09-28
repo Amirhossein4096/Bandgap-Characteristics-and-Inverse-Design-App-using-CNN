@@ -31,7 +31,7 @@ This repository contains a MATLAB application designed for predicting bandgap ch
 3. **Run the Application**:
     - Unzip the zip file.
     - Navigate to the cloned repository directory.
-    - Run the executable file: `Bandgap_Characteristic_ and_Inverse_Design_App_using_CNN.exe`.
+    - Run the executable file: `Bandgap_Characteristic_and_Inverse_Design_App_using_CNN.exe`.
 
 ### Usage
 
