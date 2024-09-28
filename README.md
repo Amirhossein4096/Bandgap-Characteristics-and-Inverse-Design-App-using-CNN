@@ -12,12 +12,12 @@ This repository contains a MATLAB application designed for predicting bandgap ch
 ### Features
 
 1. **Prediction Tab**:
-   - Set target bandgap ratio and boundary ranges for the control parameters.
-   - perform inverse design, utilizing particle swarm optimization and the trained CNN for minimal optimization.
-   - Automatically update the 2D view of the elastic metamaterial unit cell within the app.
+   - Set values of control points using sliders.
+   - Prediction of bandgap characteristics and bandgap ratio with trained convolutional convolutional network.
+   - update the 2D view of the elastic metamaterial unit cell within the app.
 
 2. **Inverse Design Tab**:
-   - Set boundary ranges for **e/a**, **d/a**, and **h/a** using range sliders.
+   - Set boundary ranges for control points using range sliders.
    - Input the desired bandgap ratio.
    - Click "Compute" to perform inverse design with minimal optimization using a trained neural network and particle swarm optimization.
 
@@ -31,13 +31,13 @@ This repository contains a MATLAB application designed for predicting bandgap ch
 3. **Run the Application**:
     - Unzip the zip file.
     - Navigate to the cloned repository directory.
-    - Run the executable file: `Bandgap_Characteristic_and_Inverse_Design_App_using_CNN.exe`.
+    - Run the executable file: `GapGenius.exe`.
 
 ### Usage
 
 - **Prediction Tab**:
   - Use the sliders to set the values of the control points to define the unit cell geometry.
-  - View predicted bandgap characteristics and ratios by clicking 'Compute,' along with 3D visualizations.
+  - View predicted bandgap characteristics and ratios by clicking 'Compute,' along with 2D visualizations.
 
 - **Inverse Design Tab**:
   - Set boundary ranges for control points.
